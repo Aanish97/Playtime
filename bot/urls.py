@@ -16,9 +16,9 @@ Including another URLconf
 """
 from django.contrib import admin
 from django.urls import path
-from django.urls.conf import include
+
+from bot.views import BotView
 
 urlpatterns = [
-    path('', include("bot.urls")),
-    path('admin/', admin.site.urls),
+    path('', BotView.as_view(), name='bot_view'),
 ]
