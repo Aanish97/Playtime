@@ -12,7 +12,21 @@ Welcome to the Playtime project! This Django application integrates with Messeng
 1. **Clone the Repository**
 
    ```bash
-   git clone <repository-url>
+   git clone https://github.com/Aanish97/Playtime
    cd playtime-project
+   virtualenv venv --python=python3.9 // create the venv
+   source venv/bin/activate // activate the venv
+   pip install -r requirements.txt // install the packages
+   python manage.py migrate // migrate to the DB
+   python manage.py createsuperuser // follow the prompt
+   python manage.py runserver // run the server
+
+
+
+
+
+
+
+   
 
 
