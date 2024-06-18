@@ -130,4 +130,4 @@ DEFAULT_AUTO_FIELD = 'django.db.models.BigAutoField'
 
 AUTH_USER_MODEL = "bot.User"
 
-CSRF_TRUSTED_ORIGINS = ['https://*.replit.dev','https://*.127.0.0.1:8000']
+CSRF_TRUSTED_ORIGINS = ['https://*.replit.dev', 'https://*.127.0.0.1:8000']
